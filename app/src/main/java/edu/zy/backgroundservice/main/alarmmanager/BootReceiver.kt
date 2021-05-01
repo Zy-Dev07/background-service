@@ -13,6 +13,7 @@ class BootReceiver: BroadcastReceiver() {
 
             Log.e("BootReceiver", "Notify who ever needs to know that this app went from a reboot")
             // save to cache that this app rebooted
+            // rebooted = true
         }
     }
 }
