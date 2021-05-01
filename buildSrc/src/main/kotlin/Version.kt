@@ -1,6 +1,6 @@
 object Version {
-    const val applicationId = "com.zy.bestbeforebeep"
+    const val applicationId = "edu.zy.backgroundservice"
     const val compiledSdk = 30
-    const val minSdk = 21
+    const val minSdk = 24
     const val targetSdk = 30
 }

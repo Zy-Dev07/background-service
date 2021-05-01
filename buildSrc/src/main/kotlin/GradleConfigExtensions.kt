@@ -15,6 +15,7 @@ fun BaseExtension.commonBuildTypes() {
 }
 
 fun DefaultConfig.commonDefaultConfig() {
+    applicationId = Version.applicationId
     minSdkVersion(Version.minSdk)
     targetSdkVersion(Version.targetSdk)
     versionCode = 1
